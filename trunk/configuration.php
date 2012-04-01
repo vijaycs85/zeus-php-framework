@@ -11,6 +11,7 @@
 		);
 		$site = array(
 			'baseurl' => 'http://zeus/vinicius/zeus_cms/',
+			'adminurl' => 'http://localhost/vinicius/zeus_cms/administrator/',
 			'sitename' => 'Blog'
 		);
 	}else if($_SERVER['HTTP_HOST'] == 'localhost'){
@@ -25,6 +26,7 @@
 		);
 		$site = array(
 			'baseurl' => 'http://localhost/zeus_cms/',
+			'adminurl' => 'http://localhost/zeus_cms/administrator/',
 			'sitename' => 'Blog'
 		);
 	}
