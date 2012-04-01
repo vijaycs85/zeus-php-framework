@@ -94,6 +94,10 @@
 			return;
 		}
 		
+		public function insertId(){
+			return mysql_insert_id($this->_link);
+		}
+		
 		public function addPrefix($mask, $prefix){
 			if(!isset($this->prefix[$mask])){
 				$this->prefix[$mask] = $prefix;
